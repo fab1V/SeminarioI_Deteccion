@@ -1,0 +1,19 @@
+
+# Para el entorno virtual
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Configuración local
+.env
+.env.*
+
+# Modelos entrenados: se entregan por separado el bert y roberta
+models/bert/*
+models/roberta/*
+
+# Archivos de editor y sistema
+.vscode/
+.idea/
+.DS_Store
